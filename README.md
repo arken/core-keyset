@@ -13,23 +13,24 @@ If you're a researcher, collections curator, or open source publisher check out 
 
 ```
 core-keyset
-  | --> science
-  |  | --> anthropology
-  |  | --> astronomy
-  |  | --> biology
-  |  |  |  --> datasets
-  |  |  |  --> books
-  |  |  |  --> specimens
-  |  | --> chemistry
-  |  | --> computer-science
-  |  | --> engineering
-  |  | --> linguistics
-  | --> literature
-  | --> library
-  |  |  --> fiction
-  |  |  |  --> classics
-  |  |  --> technology
-  |  |  |  --> peer-to-peer
+├── library
+│   ├── fiction
+│   │   └── classics
+│   └── technology
+│       └── peer-to-peer
+├── literature
+└── science
+    ├── anthropology
+    ├── astronomy
+    ├── biology
+    │   ├── books
+    │   ├── collections
+    │   │   └── plants
+    │   └── datasets
+    ├── chemistry
+    ├── computer-science
+    ├── engineering
+    └── linguistics
 ```
 
 ## License
